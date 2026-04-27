@@ -160,6 +160,42 @@ export default defineConfig({
 
     search: {
       provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: 'Ara',
+            buttonAriaLabel: 'Ara',
+          },
+          modal: {
+            displayDetails: 'Detayları göster',
+            resetButtonTitle: 'Aramayı temizle',
+            backButtonTitle: 'Geri dön',
+            noResultsText: 'Sonuç bulunamadı:',
+            footer: {
+              selectText: 'seç',
+              selectKeyAriaLabel: 'enter',
+              navigateText: 'gezin',
+              navigateUpKeyAriaLabel: 'yukarı ok',
+              navigateDownKeyAriaLabel: 'aşağı ok',
+              closeText: 'kapat',
+              closeKeyAriaLabel: 'esc',
+            },
+          },
+        },
+      },
+    },
+
+    outlineTitle: 'Bu sayfada',
+    darkModeSwitchLabel: 'Tema',
+    darkModeSwitchAria: 'Temayı değiştir',
+    lightModeSwitchTitle: 'Açık temaya geç',
+    darkModeSwitchTitle: 'Koyu temaya geç',
+    sidebarMenuLabel: 'Menü',
+    returnToTopLabel: 'Yukarı çık',
+
+    docFooter: {
+      prev: 'Önceki',
+      next: 'Sonraki',
     },
   },
 })

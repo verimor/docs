@@ -1,0 +1,6 @@
+node_modules
+docs/.vitepress/dist
+docs/.vitepress/cache
+.claude/
+openapi-sms.json
+openapi-switch.json

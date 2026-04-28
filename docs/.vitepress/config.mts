@@ -31,20 +31,9 @@ export default defineConfig({
       },
       { text: 'OİM', link: '/oim/' },
       { text: 'Entegrasyonlar', link: '/entegrasyonlar/' },
-      { text: 'Rehber', link: '/rehber/baslangic' },
     ],
 
     sidebar: {
-      '/rehber/': [
-        {
-          text: 'Rehber',
-          items: [
-            { text: 'Başlangıç', link: '/rehber/baslangic' },
-            { text: 'Hızlı Başlangıç', link: '/rehber/hizli-baslangic' },
-          ],
-        },
-      ],
-
       '/sms/': [
         {
           text: 'SMS Hizmetleri',

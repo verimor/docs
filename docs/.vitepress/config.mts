@@ -29,6 +29,7 @@ export default defineConfig({
           { text: 'Bulut Santralim API', link: '/switch/giris' },
         ],
       },
+      { text: 'OİM', link: '/oim/' },
       { text: 'Entegrasyonlar', link: '/entegrasyonlar/' },
       { text: 'Rehber', link: '/rehber/baslangic' },
     ],
@@ -100,6 +101,86 @@ export default defineConfig({
             { text: 'IVR Kampanyaları', link: '/switch/ivr-kampanya' },
             { text: 'Ses Kayıtları', link: '/switch/ses-kayitlari' },
             { text: 'Faks', link: '/switch/faks' },
+          ],
+        },
+      ],
+
+      '/oim/': [
+        {
+          text: 'Online İşlem Merkezi',
+          items: [
+            { text: 'OİM Nedir?', link: '/oim/' },
+          ],
+        },
+        {
+          text: 'Sesli Hizmetler',
+          items: [
+            { text: 'Tarifem', link: '/oim/sesli-hizmetler/tarife' },
+            { text: 'Arama Kayıtlarım', link: '/oim/sesli-hizmetler/arama-kayitlari' },
+            { text: 'Aktif Çağrılarım', link: '/oim/sesli-hizmetler/aktif-cagrilar' },
+            { text: 'Gelen Çağrı Yönetimi', link: '/oim/sesli-hizmetler/gelen-cagri-yonetimi' },
+            { text: 'Akıllı Yönlendirme', link: '/oim/sesli-hizmetler/akilli-yonlendirme' },
+            { text: 'Telesekreter', link: '/oim/sesli-hizmetler/telesekreter' },
+            { text: 'Ses Ayarlarım', link: '/oim/sesli-hizmetler/ses-ayarlari' },
+          ],
+        },
+        {
+          text: 'SMS',
+          items: [
+            { text: 'SMS Gönder', link: '/oim/sms/sms-gonder' },
+            { text: "Excel'den SMS Gönder", link: '/oim/sms/excel-sms' },
+            { text: 'Hazır Mesajlar', link: '/oim/sms/hazir-mesajlar' },
+            { text: 'Başlıklarım', link: '/oim/sms/basliklarim' },
+            { text: 'Kara Listem', link: '/oim/sms/kara-listem' },
+            { text: 'Gelen SMS', link: '/oim/sms/gelen-sms' },
+            { text: 'Gönderim Takibi', link: '/oim/sms/gonderi-takibi' },
+            { text: 'SMS Ayarlarım', link: '/oim/sms/sms-ayarlari' },
+            { text: 'İYS İzinleri', link: '/oim/sms/iys-izinleri' },
+          ],
+        },
+        {
+          text: 'Bulut Santralim',
+          items: [
+            { text: 'Durum Paneli', link: '/oim/bulut-santralim/durum-paneli' },
+            { text: 'Ses Dosyalarım', link: '/oim/bulut-santralim/ses-dosyalarim' },
+            { text: 'Dahililerim', link: '/oim/bulut-santralim/dahililerim' },
+            { text: 'Çalma Gruplarım', link: '/oim/bulut-santralim/calma-gruplari' },
+            { text: 'Kuyruklarım', link: '/oim/bulut-santralim/kuyruklarim' },
+            { text: 'IVR / Sesli Karşılama', link: '/oim/bulut-santralim/ivr-menu' },
+            { text: 'Gelen Arama Yönetimi', link: '/oim/bulut-santralim/gelen-arama' },
+            { text: 'Giden Arama Yönetimi', link: '/oim/bulut-santralim/giden-arama' },
+            { text: 'Otomatik Arama', link: '/oim/bulut-santralim/otomatik-arama' },
+            { text: 'Santral Ayarlarım', link: '/oim/bulut-santralim/santral-ayarlari' },
+          ],
+        },
+        {
+          text: 'Raporlar',
+          items: [
+            { text: 'Meşguliyet Panosu', link: '/oim/raporlar/mesgul-pano' },
+            { text: 'Arama ve Ses Kayıtları', link: '/oim/raporlar/arama-kayitlari' },
+            { text: 'Kuyruk İstatistikleri', link: '/oim/raporlar/kuyruk-istatistik' },
+            { text: 'MT / Dahili İstatistikleri', link: '/oim/raporlar/mt-istatistik' },
+          ],
+        },
+        {
+          text: 'Rehber',
+          items: [
+            { text: 'Kişilerim', link: '/oim/rehber/kisilerim' },
+            { text: 'Gruplarım', link: '/oim/rehber/gruplar' },
+          ],
+        },
+        {
+          text: 'Hesap Yönetimi',
+          items: [
+            { text: 'Abonelik Bilgilerim', link: '/oim/hesap/abonelik' },
+            { text: 'Personel Hesapları', link: '/oim/hesap/personel' },
+          ],
+        },
+        {
+          text: 'Finansal İşlemler',
+          items: [
+            { text: 'Faturalarım', link: '/oim/finans/faturalar' },
+            { text: 'Ödeme Yöntemleri', link: '/oim/finans/odeme' },
           ],
         },
       ],

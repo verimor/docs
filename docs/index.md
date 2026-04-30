@@ -34,7 +34,8 @@ features:
   - icon: 🛡️
     title: Güvenilir Hizmet
     details: Tüm hizmetleri tek bir panelden yönetin. Verimor Online İşlem Merkezi ile sürekli erişilebiliriz. Detaylı bilgi almak için
-    link: /oim linkText: OİM
+    link: /oim
+    linkText: OİM
   - icon: 🤝
     title: Rekor Müşteri Memnuniyeti
     details: Verimor olarak işimizi severek yapıyoruz. Şikayet platformlarında rakiplerimizle en büyük farkımız, neredeyse kusursuz müşteri memnuniyeti oranımız.

@@ -13,7 +13,7 @@ hero:
 features:
   - icon: 📨
     title: SMS
-    details: Tekli ve toplu gönderim, OTP doğrulama, kampanya yönetimi, webhook desteği ve İYS uyumlu ticari ileti altyapısı hakkında bilgi almak için:
+    details: Tekli ve toplu gönderim, OTP doğrulama, kampanya yönetimi, webhook desteği ve İYS uyumlu ticari ileti altyapısı hakkında bilgi almak için
     link: /sms/giris
     linkText: Dokümana git
   - icon: 📞

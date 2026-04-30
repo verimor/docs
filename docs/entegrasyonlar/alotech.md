@@ -7,7 +7,7 @@ next:
   link: '/entegrasyonlar/fonify'
 ---
 
-# AloTech Entegrasyonu2
+# AloTech Entegrasyonu
 
 AloTech bulut çağrı merkezi platformunu Verimor Bulut Santralim ile entegre edin.
 

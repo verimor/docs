@@ -93,4 +93,4 @@ class verimorsms extends \WHMCS\Module\Notification\AbstractNotification
 ## İlgili Sayfalar
 
 - [SMS API Gönderme →](/sms/gonderme)
-- [Hızlı Başlangıç (PHP) →](/rehber/hizli-baslangic)
+- [Hızlı Başlangıç (PHP) →](/sms/giris)

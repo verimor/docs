@@ -33,4 +33,4 @@ Kurulum veya entegrasyon konusunda yardım için:
 ## İlgili Sayfalar
 
 - [SMS API Gönderme →](/sms/gonderme)
-- [Hızlı Başlangıç →](/rehber/hizli-baslangic)
+- [Hızlı Başlangıç →](/sms/giris)

@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Ücretsiz Başla
-      link: /rehber/baslangic
+      link: /sms/giris
     - theme: alt
       text: SMS API
       link: /sms/giris
@@ -35,7 +35,7 @@ features:
   - icon: ⚡
     title: 5 Dakikada Entegrasyon
     details: RESTful mimari, Python / Node.js / PHP / cURL kod örnekleri ve Postman koleksiyonları ile hızlı başlangıç.
-    link: /rehber/hizli-baslangic
+    link: /sms/giris
     linkText: Kod örnekleri
   - icon: 🛡️
     title: Güvenilir Altyapı

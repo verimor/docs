@@ -80,4 +80,4 @@ function sendOrderSms($order_id, $status) {
 ## İlgili Sayfalar
 
 - [SMS API Gönderme →](/sms/gonderme)
-- [Hızlı Başlangıç (PHP) →](/rehber/hizli-baslangic)
+- [Hızlı Başlangıç (PHP) →](/sms/giris)

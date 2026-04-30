@@ -1,0 +1,13 @@
+.VPNavBarMenuLink[href="https://oim.verimor.com.tr/abonelik-basvurusu"] {
+  background-color: #1a73e8;
+  color: #ffffff !important;
+  border-radius: 6px;
+  padding: 6px 14px !important;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.VPNavBarMenuLink[href="https://oim.verimor.com.tr/abonelik-basvurusu"]:hover {
+  background-color: #1557b0;
+  color: #ffffff !important;
+}

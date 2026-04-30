@@ -18,7 +18,7 @@ export default defineConfig({
         link: '/sms/giris',
       },
       {
-        text: 'Bulut Santralim API',
+        text: 'Bulut Santral API',
         link: '/switch/giris',
       },
       {
@@ -28,6 +28,40 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/ses/': [
+        {
+          text: 'Ses Hizmetleri',
+          items: [
+            { text: 'Ses Hizmetleri', link: '/ses/' },
+            { text: 'Sabit Numara', link: '/ses/sabit-numara' },
+            { text: 'Numara Taşıma', link: '/ses/numara-tasima' },
+            { text: 'Numara Maskeleme', link: '/ses/numara-maskeleme' },
+            { text: 'Yurtdışı Aramaları', link: '/ses/yurtdisi-aramalari' },
+          ],
+        },
+      ],
+
+      '/softphone/': [
+        {
+          text: 'Verimor Softphone',
+          items: [
+            { text: 'Softphone Nedir?', link: '/softphone/nedir' },
+            { text: 'Verimor Softphone Kullanımı', link: '/softphone/kullanim' },
+          ],
+        },
+      ],
+
+      '/manager/': [
+        {
+          text: 'Verimor Manager',
+          items: [
+            { text: 'FCT Manager', link: '/manager/fct-manager' },
+            { text: '444 Manager', link: '/manager/444-manager' },
+            { text: 'WA Manager', link: '/manager/wa-manager' },
+          ],
+        },
+      ],
+
       '/sms/': [
         {
           text: 'SMS Hizmetleri',
@@ -74,7 +108,7 @@ export default defineConfig({
           ],
         },
         {
-          text: 'Bulut Santralim API',
+          text: 'Bulut Santral API',
           items: [
             { text: 'API\'ye Giriş', link: '/switch/giris' },
             { text: 'Kimlik Doğrulama', link: '/switch/kimlik-dogrulama' },

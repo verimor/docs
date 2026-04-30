@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Verimor"
   text: "Bilgi Platformu"
-  tagline: Türkiye’nin en kullanıcı dostu bulut çözümleriyle işletmenize değer katın.
+  tagline: Türkiye’nin en kullanıcı dostu iletişim çözümleriyle işletmenize değer katın.
   actions:
     - theme: brand
       text: Şimdi Başlayın

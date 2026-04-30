@@ -13,24 +13,18 @@ export default defineConfig({
     siteTitle: false,
 
     nav: [
-      { text: 'Ana Sayfa', link: '/' },
       {
-        text: 'SMS',
-        items: [
-          { text: 'SMS Nedir?', link: '/sms/nedir' },
-          { text: 'SMS API', link: '/sms/giris' },
-          { text: 'İYS', link: '/iys/nedir' },
-        ],
+        text: 'SMS API',
+        link: '/sms/giris',
       },
       {
-        text: 'Bulut Santralim',
-        items: [
-          { text: 'Bulut Santralim Nedir?', link: '/switch/nedir' },
-          { text: 'Bulut Santralim API', link: '/switch/giris' },
-        ],
+        text: 'Bulut Santralim API',
+        link: '/switch/giris',
       },
-      { text: 'OİM', link: '/oim/' },
-      { text: 'Entegrasyonlar', link: '/entegrasyonlar/' },
+      {
+        text: 'Ücretsiz Başla',
+        link: 'https://oim.verimor.com.tr/abonelik-basvurusu',
+      },
     ],
 
     sidebar: {

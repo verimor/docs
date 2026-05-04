@@ -253,7 +253,7 @@ export default defineConfig({
 
     footer: {
       message: 'Verimor Telekomunikasyon',
-      copyright: 'Copyright © 2024 Verimor',
+      copyright: 'Copyright © 2026 Verimor',
     },
 
     search: {

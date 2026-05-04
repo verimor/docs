@@ -1,5 +1,28 @@
+:root {
+  --vp-c-brand-1: #ff7605;
+  --vp-c-brand-2: #e56a00;
+  --vp-c-brand-3: #cc5f00;
+  --vp-c-brand-soft: rgba(255, 118, 5, 0.12);
+
+  --vp-button-brand-bg: #ff7605;
+  --vp-button-brand-hover-bg: #e56a00;
+  --vp-button-brand-active-bg: #cc5f00;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-hover-text: #ffffff;
+}
+
+.dark {
+  --vp-c-brand-1: #ff8c2a;
+  --vp-c-brand-2: #ff7605;
+  --vp-c-brand-3: #e56a00;
+  --vp-c-brand-soft: rgba(255, 118, 5, 0.16);
+}
+
+/* Ücretsiz Başla nav butonu */
 .VPNavBarMenuLink[href="https://oim.verimor.com.tr/abonelik-basvurusu"] {
-  background-color: #1a73e8;
+  background-color: #1768e1;
   color: #ffffff !important;
   border-radius: 6px;
   padding: 6px 14px !important;
@@ -8,6 +31,6 @@
 }
 
 .VPNavBarMenuLink[href="https://oim.verimor.com.tr/abonelik-basvurusu"]:hover {
-  background-color: #1557b0;
+  background-color: #1254c0;
   color: #ffffff !important;
 }

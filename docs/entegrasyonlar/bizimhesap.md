@@ -7,10 +7,27 @@ next:
   link: '/entegrasyonlar/qpien'
 ---
 
-# BizimHesap Entegrasyonu
+# BizimHesap 
 
-BizimHesap bulut muhasebe programına Verimor SMS entegrasyonu ekleyerek fatura ve ödeme bildirimlerini otomatik gönderin.
+BizimHesap SMS entegrasyonu, ödeme, tahsilat ve sipariş süreçlerinde
+müşterilerle anlık ve otomatik iletişim kurmayı sağlar.
 
+**Entegrasyon Türü:** Muhasebe / ERP
+**Verimor Hizmetleri:** SMS
+
+---
+
+## Özellikler
+
+**Otomatik SMS Gönderimi**
+- Ödeme hatırlatmaları müşterilere otomatik SMS ile iletilir
+- Tahsilat süreçleri SMS bildirimleri ile kolayca takip edilir
+- Sipariş onayları ve durum güncellemeleri anında SMS olarak gönderilir
+
+**Avantajlar**
+- Müşterilere hızlı ve doğru bilgilendirme sağlar
+- Ödeme ve tahsilatların düzenli takibini kolaylaştırır
+- Manuel iş yükünü azaltarak işletmelere zaman kazandırır
 ## Kurulum Gereksinimleri
 
 - Aktif Verimor hesabı ve API erişimi

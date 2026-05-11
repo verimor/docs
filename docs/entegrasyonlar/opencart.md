@@ -7,10 +7,35 @@ next:
   link: '/entegrasyonlar/ideasoft'
 ---
 
-# Opencart Entegrasyonu
+# Opencart 
 
-Opencart mağazanıza Verimor SMS modülünü kurarak sipariş bildirimlerini otomatik gönderin.
+Opencart Bulut Santral entegrasyonu, müşterilerin sipariş ve kargo bilgilerini
+hızlı ve kolay bir şekilde öğrenmesini sağlar.
 
+**Entegrasyon Türü:** E-Ticaret Platformu
+**Verimor Hizmetleri:** Bulut Santral, SMS
+
+---
+
+## Özellikler
+
+**Sipariş/Kargo IVR**
+Sipariş kaydıyla eşleşen telefon numarasından arayan müşteriler, otomatik
+sesli robot (IVR/TTS) ile anında bilgilendirilir. Farklı numaradan aramada
+müşteriden kayıtlı numarasını tuşlaması istenir.
+
+**Kapıda Ödeme Onayı**
+Kapıda ödeme siparişleri için sistem otomatik aramalarla onay alır ve veriler
+doğrudan Opencart sistemine aktarılır.
+
+**Müşteri Popup**
+Sizi arayan müşterilerin bilgileri çağrı merkezi ekranında otomatik açılır.
+
+**Öne Çıkan Özellikler**
+- Sipariş ve kargo durumlarını anında otomatik sesli yanıt ile iletme
+- Kapıda ödeme için IVR üzerinden otomatik onay
+- Farklı numaralardan aramalarda kolay doğrulama
+- Müşteri bilgilerine çağrı merkezi ekranından hızlı erişim
 ## Kurulum
 
 ### 1. Modül Kurulumu

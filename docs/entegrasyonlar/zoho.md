@@ -7,9 +7,47 @@ next:
   link: '/entegrasyonlar/dinamik-crm'
 ---
 
-# Zoho CRM Entegrasyonu
+# Zoho Entegrasyonu
 
-Zoho CRM'e Verimor SMS entegrasyonu ekleyerek müşteri iletişimini otomatikleştirin.
+Zoho CRM ile Bulut Santral entegrasyonu; çağrı yönetimi, SMS gönderimi ve
+raporlamayı tek platform üzerinden birleştirir. Müşteri deneyimi iyileşirken
+operasyonel verimlilik artar.
+
+**Entegrasyon Türü:** CRM / ERP
+**Verimor Hizmetleri:** Bulut Santral, SMS
+
+---
+
+## Özellikler
+
+**Click-to-Call**
+Müşteri cari kartındaki numaraya tıklayarak zaman kaybetmeden doğrudan
+arama başlatabilirsiniz.
+
+**Call Pop-up**
+Gelen çağrılarda Zoho CRM arayanı numarasından tanır, sağ alt köşede popup
+açar. Buradan çağrıyı reddedebilir veya hızlıca yanıtlayabilirsiniz.
+
+**Call Managing**
+Çağrı esnasında kapatma, bekletme ve sessize alma (mute) işlemlerini
+doğrudan Zoho üzerinden yönetebilirsiniz.
+
+**Missed Call Reporting**
+Kaçan çağrıları Zoho CRM üzerinden raporlayabilirsiniz.
+
+**Call Reminder**
+Giden aramalar için hatırlatıcı kurabilirsiniz.
+
+**Voice Recording Access**
+Zoho üzerinden ses kayıtlarına erişip dinleyebilirsiniz.
+
+**Call Analysis**
+Çağrı analiz raporları alabilirsiniz. Çağrı süreleri, yanıt oranları
+ve istatistikler üzerinden müşteri iletişimini optimize edebilirsiniz.
+
+**SMS — Toplu Gönderim**
+Zoho CRM üzerinden müşterilerinize toplu SMS gönderebilirsiniz.
+Kampanya ve bilgilendirme mesajları hızlı ve kolay iletilir.
 
 ## Kurulum — Zoho Flow ile
 

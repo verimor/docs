@@ -7,10 +7,32 @@ next:
   link: '/entegrasyonlar/opencart'
 ---
 
-# Shopify Entegrasyonu
+# Shopify 
 
-Shopify mağazanıza Verimor SMS entegrasyonu kurarak sipariş, kargo ve kampanya bildirimlerini otomatik olarak gönderin.
+Shopify Bulut Santral entegrasyonu, sipariş/kargo bilgisini otomatik sesli
+robot (IVR/TTS) ile iletir; kapıda ödeme siparişlerini otomatik arayarak onaylar
+ve sonuçları doğrudan Shopify sistemine aktarır.
 
+**Entegrasyon Türü:** E-Ticaret Platformu
+**Verimor Hizmetleri:** Bulut Santral, SMS
+
+---
+
+## Özellikler
+
+**Sipariş/Kargo Durumu IVR**
+Müşteriler aradığında sesli robot, sipariş numarasıyla eşleşen bilgiyi
+otomatik olarak okur. Farklı numaradan aramada müşteriden kayıtlı numarasını
+tuşlaması istenir.
+
+**Kapıda Ödeme Onayı**
+Kapıda ödeme siparişleri için IVR robotu müşteriyi arar ve onay alır;
+sonuç Shopify sistemine otomatik aktarılır.
+
+**Müşteri Tanıma Popup**
+Sizi arayan müşterilerin bilgileri çağrı merkezi ekranında otomatik açılır.
+Müşteriyi ismiyle karşılayabilir, geçmiş sipariş ve görüşmelere hızlı
+erişim sağlayabilirsiniz.
 ## Kurulum Adımları
 
 ### 1. Verimor API Bilgilerinizi Hazırlayın

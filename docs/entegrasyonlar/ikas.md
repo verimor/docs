@@ -7,9 +7,30 @@ next:
   link: '/entegrasyonlar/ticimax'
 ---
 
-# İkas Entegrasyonu
+# İkas 
 
-İkas e-ticaret platformuna Verimor SMS entegrasyonu kurarak sipariş bildirimlerini otomatikleştirin.
+İKAS Bulut Santral entegrasyonu, müşterilerin siparişlerini daha hızlı ve
+kolay takip edebilmesini sağlar.
+
+**Entegrasyon Türü:** E-Ticaret Platformu
+**Verimor Hizmetleri:** Bulut Santral
+
+---
+
+## Özellikler
+
+**Otomatik Müşteri Tanıma ve Sipariş Takibi**
+Müşteri, sipariş kaydındaki telefon numarasından aradığında sistem müşteriyi
+otomatik olarak tanır ve sipariş ile kargo durumunu TTS robotu ile anında okur.
+
+Farklı numaradan yapılan aramalarda sistem müşteriden kayıtlı numarasını
+tuşlamasını ister. Tuşlama sonrası sipariş bilgileri ve kargo durumu anında
+iletilir.
+
+**Öne Çıkan Özellikler**
+- Otomatik müşteri tanıma ve sipariş takibi
+- TTS ile anlık bilgi iletimi
+- Farklı numaralardan aramalarda kolay doğrulama
 
 ## Kurulum Gereksinimleri
 

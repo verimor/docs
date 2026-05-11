@@ -7,9 +7,37 @@ next:
   link: '/entegrasyonlar/mi4biz'
 ---
 
-# Workcube Entegrasyonu
+# Workcube 
 
-Workcube ERP platformuna Verimor SMS ve Bulut Santralim entegrasyonu ekleyerek iş süreçlerinizi otomatikleştirin.
+Workcube Bulut Santral entegrasyonu sayesinde müşteri ilişkilerinizi tek platform
+üzerinden hızlı ve etkili şekilde yönetebilirsiniz.
+
+**Entegrasyon Türü:** CRM / ERP
+**Verimor Hizmetleri:** Bulut Santral
+
+---
+
+## Özellikler
+
+**Click-to-Call**
+Workcube'de kayıtlı müşteri cari kartlarındaki telefon numaralarına tıklayarak
+hızlıca arama başlatabilirsiniz.
+
+**Çağrı Pop-Up**
+Gelen çağrılar Workcube tarafından tanınır ve arayanın müşteri cari kartı
+ekranınızda görüntülenir. Çağrılara hızlı ve kişiselleştirilmiş yanıt
+verebilirsiniz.
+
+**Web Telefonu**
+Workcube içerisindeki web telefonu ile ekstra yazılıma ihtiyaç duymadan
+çağrı başlatabilir, sessize alabilir veya farklı bir dahiliye yönlendirebilirsiniz.
+
+**Detaylı Arama Raporları**
+Bulut santraldeki tüm arama ve ses kayıtlarına Workcube üzerinden erişebilirsiniz.
+
+**Kaçan Çağrı Raporlama**
+Kaçan çağrıları Workcube üzerinden raporlayabilir, hiçbir müşteri araması
+gözden kaçmadan tüm çağrıları takip edebilirsiniz.
 
 ## Kurulum Gereksinimleri
 

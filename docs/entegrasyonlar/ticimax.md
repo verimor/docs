@@ -7,9 +7,31 @@ next:
   link: '/entegrasyonlar/tsoft'
 ---
 
-# Ticimax Entegrasyonu
+# Ticimax 
 
-Ticimax e-ticaret altyapısında sipariş, kargo ve kampanya SMS bildirimleri için Verimor entegrasyonu.
+Ticimax Bulut Santral entegrasyonu, müşterilerin sipariş ve kargo bilgilerini
+sesli karşılama robotu (TTS/IVR) üzerinden kolayca öğrenmesini sağlar.
+
+**Entegrasyon Türü:** E-Ticaret Platformu
+**Verimor Hizmetleri:** Bulut Santral, SMS
+
+---
+
+## Özellikler
+
+**Sipariş/Kargo Durumu IVR**
+Müşteriler aradığında sesli robot sipariş ve kargo durumunu otomatik okur.
+
+**Kapıda Ödeme Onayı**
+Bulut santral üzerinden otomatik aramalarla kapıda ödeme onayı alınır;
+sonuçlar doğrudan Ticimax sistemine işlenir.
+
+**SMS Bildirimi**
+Ticimax SMS entegrasyonu ile müşterilerinize sipariş bilgilendirmesi
+yapabilirsiniz.
+
+**Müşteri Popup**
+Sizi arayan müşterilerin bilgileri çağrı merkezi ekranında otomatik açılır.
 
 ## Kurulum Gereksinimleri
 

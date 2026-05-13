@@ -30,7 +30,7 @@ kayıt altına alınması zorunludur.
 
 - Her ticari SMS'in sonunda ret talimatı yer almalıdır  
   (Örnek: *"Almak istemiyorsanız STOP yazıp 4XXX'e gönderin"*)
-- Ret talepleri İYS kaydıyla da entegre edilmelidir. Bkz. [İYS](/iys/)
+- Ret talepleri İYS kaydıyla da entegre edilmelidir. Bkz. [İYS](/iys/nedir)
 - Ret listesindeki numaralara gönderim yapılması yasal yaptırım doğurur
 
 ## Sıkça Sorulan Sorular

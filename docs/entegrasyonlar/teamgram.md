@@ -9,7 +9,39 @@ next:
 
 # Teamgram Entegrasyonu
 
-Teamgram satış yönetim platformuna Verimor SMS entegrasyonu ekleyerek müşteri ve ekip bildirimlerini otomatikleştirin.
+Teamgram Bulut Santral entegrasyonu, müşteri iletişimini hızlandırır ve
+CRM süreçlerini optimize eder. Çağrı yönetimi ve SMS gönderimi tek panel
+üzerinden yönetilir.
+
+**Entegrasyon Türü:** CRM
+**Verimor Hizmetleri:** Bulut Santral, SMS
+
+---
+
+## Özellikler
+
+**Click-to-Call**
+Teamgram üzerinden tek tıkla çağrı başlatabilirsiniz.
+
+**Call Pop-Up**
+Gelen çağrılarda müşteri bilgileri otomatik olarak ekrana yansır.
+
+**Web Telefonu**
+Entegre web telefonu ile ek yazılıma ihtiyaç duymadan çağrı başlatabilir,
+yönlendirebilir veya sonlandırabilirsiniz.
+
+**Detaylı Arama Raporları**
+Tüm arama ve ses kayıtlarına erişebilir, çağrı geçmişini takip edebilirsiniz.
+
+**Kaçan Çağrı Raporlama**
+Kaçan çağrıları raporlayarak müşteri iletişimini geliştirebilirsiniz.
+
+**SMS Gönderimi ve Otomatik Bildirimler**
+Teamgram üzerinden tekil ve toplu SMS gönderebilirsiniz. Randevu ve
+kampanya bildirimleri SMS ile otomatik gönderilir.
+
+**Performans Takibi**
+Personel performansını izleyebilir, hedefler oluşturabilirsiniz.
 
 ## Kurulum Gereksinimleri
 

@@ -7,10 +7,34 @@ next:
   link: '/entegrasyonlar/whmcs'
 ---
 
-# Mi4Biz Entegrasyonu
+# Mi4Biz
 
-Mi4Biz iş süreçleri yönetim platformuna Verimor SMS entegrasyonu ekleyerek müşteri bildirimlerini otomatikleştirin.
+Mi4Biz Bulut Santral entegrasyonu, çağrı yönetimi, arama kayıtları ve müşteri
+bilgilerine hızlı erişim sayesinde iş süreçlerini daha verimli ve profesyonel
+hale getirir.
 
+**Entegrasyon Türü:** CRM
+**Verimor Hizmetleri:** Bulut Santral
+
+---
+
+## Özellikler
+
+**Click-to-Call**
+Mi4Biz üzerinden tek tıkla kolayca çağrı başlatabilirsiniz.
+
+**Call Pop-Ups**
+Gelen çağrılarda müşterinin bilgileri otomatik olarak Mi4Biz ekranında açılır.
+
+**Web Telefonu Entegrasyonu**
+Ek bir yazılım gerektirmeden çağrı başlatabilir, yönlendirebilir veya
+sonlandırabilirsiniz.
+
+**Call Records & Recordings**
+Tüm arama detaylarına ve ses kayıtlarına Mi4Biz üzerinden erişebilirsiniz.
+
+**Çağrı Raporlama**
+Çağrı performansını analiz ederek müşteri memnuniyetini artırabilirsiniz.
 ## Kurulum Gereksinimleri
 
 - Aktif Verimor hesabı ve API erişimi

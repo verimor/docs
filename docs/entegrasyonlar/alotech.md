@@ -7,9 +7,31 @@ next:
   link: '/entegrasyonlar/fonify'
 ---
 
-# AloTech Entegrasyonu2
+# AloTech
 
-AloTech bulut çağrı merkezi platformunu Verimor Bulut Santralim ile entegre edin.
+Verimor ve Alotech, yalnızca entegrasyon değil, kapsamlı bir iş ortaklığı
+sürdürüyor. İşletmeler hem çağrı merkezi yazılımlarını hem de operatör
+tarafındaki ses hizmetlerini tek yapı üzerinden güvenle yönetebiliyor.
+
+**Entegrasyon Türü:** Çağrı Merkezi Yazılımı
+**Verimor Hizmetleri:** Bulut Santral, SMS
+
+---
+
+## Özellikler
+
+**Alotech SMS Entegrasyonu**
+- Başarısız çağrılarda otomatik SMS gönderimi ile müşteri memnuniyeti artırılabilir
+- Geri dönüşler hızlandırılarak iletişim süreçleri daha verimli hale getirilebilir
+
+**Ses Hizmetleri İş Birliği**
+Verimor Telekom'un operatör altyapısı ile Alotech'in bulut çağrı merkezi
+yazılımı birleştiğinde güçlü bir iletişim ekosistemi ortaya çıkıyor. Bu iş
+birliği kapsamında:
+
+- Kolay kurulum ile sistemler hızlıca devreye alınır
+- Hızlı destek sayesinde teknik ihtiyaçlar kısa sürede karşılanır
+- Yedekli altyapı ile yüksek güvenlikli ve kesintisiz iletişim sağlanır
 
 ## Kurulum Gereksinimleri
 

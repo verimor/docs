@@ -40,7 +40,7 @@ tetikleyebilirsiniz. Detaylar için [Entegrasyonlar](/entegrasyonlar/) bölümü
 
 ## Dikkat Edilmesi Gerekenler
 
-- Ticari içerikli SMS'lerde İYS onayı zorunludur. Detaylar için [İYS](/iys/) bölümüne bakın.
+- Ticari içerikli SMS'lerde İYS onayı zorunludur. Detaylar için [İYS](/iys/nedir) bölümüne bakın.
 - Numaranız yerine firma adı, marka adı ile gönderim yapabilmek için SMS başlığınızın tanımlı olması gerekir. Bkz. [SMS Başlığı](./sms-basligi.md)
 - Tek SMS 160 karakterdir. Türkçe karakter kullanıldığında limit 
   70 karaktere düşer; sistem otomatik böler.

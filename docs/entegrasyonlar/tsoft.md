@@ -7,9 +7,29 @@ next:
   link: '/entegrasyonlar/woocommerce'
 ---
 
-# T-Soft Entegrasyonu
+# T-Soft 
 
-T-Soft e-ticaret sitenize Verimor SMS entegrasyonu ekleyerek müşteri bildirimlerini otomatik gönderin.
+T-Soft Bulut Santral entegrasyonu, sipariş durumlarını ve kargo bilgisini
+müşterilerinize otomatik sesli yanıt (IVR/TTS) ile iletir.
+
+**Entegrasyon Türü:** E-Ticaret Platformu
+**Verimor Hizmetleri:** Bulut Santral, SMS
+
+---
+
+## Özellikler
+
+**Sipariş/Kargo Durumu IVR**
+Müşteriler aradığında sesli robot sipariş ve kargo durumunu otomatik okur.
+
+**Kapıda Ödeme Robot Araması**
+Kapıda ödeme siparişleri için robot arama ile onay alınır; sonuçlar
+T-Soft sistemine işlenir.
+
+**Müşteri Popup**
+Sizi arayan müşterilerin bilgileri T-Soft çağrı merkezi ekranında otomatik
+açılır. Müşteriyi ismiyle karşılayabilir, geçmiş görüşmelere ve ses
+kayıtlarına kolayca ulaşabilirsiniz.
 
 ## Kurulum Gereksinimleri
 

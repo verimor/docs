@@ -9,7 +9,33 @@ next:
 
 # KivaCRM Entegrasyonu
 
-KivaCRM müşteri yönetim sistemine Verimor SMS entegrasyonu kurarak otomatik bildirimler gönderin.
+KivaCRM Bulut Santral entegrasyonu, çağrı yönetimi, SMS gönderimi ve müşteri
+etkileşimlerini tek platformda birleştirir.
+
+**Entegrasyon Türü:** CRM
+**Verimor Hizmetleri:** Bulut Santral, SMS
+
+---
+
+## Özellikler
+
+**Click-to-Call**
+KivaCRM üzerinden tek tıkla çağrı başlatabilirsiniz.
+
+**Web Telefonu**
+Ek yazılıma ihtiyaç duymadan çağrı başlatabilir, sonlandırabilir veya yönlendirebilirsiniz.
+
+**Çağrı Pop-Up**
+Gelen çağrılarda müşteri bilgileri otomatik ekrana yansır; arayanı tanıyabilir
+ve hızlıca yanıt verebilirsiniz.
+
+**Arama ve Ses Kaydı Erişimi**
+KivaCRM üzerinden yapılan görüşmelerin arama ve ses kayıtlarına erişebilirsiniz.
+Müşteri etkileşimlerini takip ederek hizmet kalitesini artırabilirsiniz.
+
+**SMS Gönderimi**
+Tekil ve toplu SMS gönderebilirsiniz. Randevu hatırlatmaları, ödeme bildirimleri
+ve kampanya duyuruları hızlıca iletilir.
 
 ## Kurulum Gereksinimleri
 

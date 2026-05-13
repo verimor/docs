@@ -9,24 +9,42 @@ next:
 
 # Toplu SMS
 
-Toplu SMS, tek bir işlemle yüzlerce, binlerce veya milyonlarca kişiye aynı anda mesaj gönderme hizmetidir. Kampanya duyuruları, müşteri bildirimleri ve promosyon iletişimi için kullanılır.
+Müşterilerinize, üyelerinize veya çalışanlarınıza tek işlemle binlerce SMS 
+gönderebilirsiniz. Kampanya duyuruları, hatırlatmalar, bildirimler ve 
+pazarlama mesajları için kullanılır.
 
-## Panel (OİM) Üzerinden Toplu SMS
+## Nasıl Gönderilir?
 
-Teknik bilgiye gerek duymadan tarayıcıdan toplu gönderim yapabilirsiniz.
+Toplu SMS göndermek için üç yol vardır:
 
-**Adımlar:**
+**1. OİM Paneli üzerinden**  
+OİM'e giriş yapın → SMS → Toplu SMS Gönder adımlarını izleyin.  
+Numara listesini Excel veya CSV olarak yükleyebilir, mesajı yazıp 
+anlık veya zamanlanmış gönderim başlatabilirsiniz.
 
-1. [oim.verimor.com.tr](https://oim.verimor.com.tr) adresine giriş yapın
-2. **SMS Gönder** menüsüne tıklayın
-3. Gönderici başlığını seçin
-4. Mesaj metnini yazın
-5. Alıcıları girin:
-   - Elle numara yazın
-   - Kayıtlı gruptan seçin
-   - Excel / CSV dosyası yükleyin
-6. **Hemen Gönder** veya ileri tarih seçin
-7. **Gönder** düğmesine basın
+**2. SMS API ile**  
+Kendi sisteminizden programatik olarak göndermek için 
+[SMS API](https://developer.verimor.com.tr/smsapi) belgelerine bakabilirsiniz.
+
+**3. Entegrasyonlar üzerinden**  
+CRM veya e-ticaret sisteminize bağlı bir entegrasyon varsa oradan 
+tetikleyebilirsiniz. Detaylar için [Entegrasyonlar](/entegrasyonlar/) bölümüne bakın.
+
+## Temel Özellikler
+
+- Türkçe karakter desteği
+- Anlık veya zamanlanmış gönderim
+- Kişiselleştirilmiş mesaj (ad-soyad değişkeni ile)
+- Gönderim raporu ve teslimat durumu takibi
+- İYS uyumlu gönderim (izinli alıcı listesi ile çalışır)
+
+## Dikkat Edilmesi Gerekenler
+
+- Ticari içerikli SMS'lerde İYS onayı zorunludur. Detaylar için [İYS](/iys/) bölümüne bakın.
+- Numaranız yerine firma adı, marka adı ile gönderim yapabilmek için SMS başlığınızın tanımlı olması gerekir. Bkz. [SMS Başlığı](./sms-basligi.md)
+- Tek SMS 160 karakterdir. Türkçe karakter kullanıldığında limit 
+  70 karaktere düşer; sistem otomatik böler.
+
 
 ## API Üzerinden Toplu SMS
 

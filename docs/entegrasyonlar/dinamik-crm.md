@@ -7,9 +7,36 @@ next:
   link: '/entegrasyonlar/teamgram'
 ---
 
-# DinamikCRM Entegrasyonu
+# DinamikCRM 
 
-DinamikCRM üzerinden müşteri iletişimini SMS ile otomatikleştirin; aksiyon ve hatırlatma mesajları gönderin.
+DinamikCRM, müşteri ilişkileri, satış, destek ve planlama süreçlerini tek
+ekosistemde yöneten CRM çözümüdür. Verimor Bulut Santral entegrasyonu sayesinde
+çok daha etkin bir iletişim platformuna dönüşür.
+
+**Entegrasyon Türü:** CRM / ERP
+**Verimor Hizmetleri:** Bulut Santral, SMS
+
+---
+
+## Özellikler
+
+**SoftPhone**
+Web tabanlı telefon uygulaması sayesinde çağrılarınızı doğrudan DinamikCRM
+üzerinden başlatabilir ve yönetebilirsiniz.
+
+**Click-to-Call**
+Müşteri, aday veya firmaların telefon numaralarını tek tıkla arayarak zaman
+kazanırsınız.
+
+**Müşteri Kartı Pop-up**
+Gelen çağrılarda arayan kişinin bilgileri otomatik olarak ekrana gelir;
+müşteri deneyimi anında kişiselleştirilir.
+
+**Arama Kayıt Raporları**
+Geçmiş çağrılara ulaşabilir, detaylı kayıtları inceleyebilirsiniz.
+
+**SMS Gönderimi**
+Paket/limitler dahilinde müşterilerinize SMS gönderimi gerçekleştirebilirsiniz.
 
 ## Kurulum Gereksinimleri
 

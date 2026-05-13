@@ -7,9 +7,50 @@ next:
   link: '/entegrasyonlar/qpien'
 ---
 
-# WHMCS Entegrasyonu
+# WHMCS 
 
-WHMCS müşteri yönetim paneline Verimor SMS entegrasyonu ekleyerek fatura, ödeme ve bilet bildirimlerini otomatik gönderin.
+WHMCS – Verimor SMS entegrasyonu sayesinde sipariş onayları, fatura
+hatırlatmaları, domain yenilemeleri ve ticket bildirimleri otomatik olarak
+SMS ile gönderilir.
+
+**Entegrasyon Türü:** Hosting / Yazılım Yönetim Paneli
+**Verimor Hizmetleri:** SMS, OTP
+
+---
+
+## Özellikler
+
+**Toplu ve Kişisel SMS Gönderimi**
+Müşterilerinize toplu kampanya SMS'leri gönderebilir veya tekil bildirimler
+yapabilirsiniz. Panel üzerinden müşteri kartındaki "SMS Gönder" kutucuğu
+ile anında mesaj atabilirsiniz.
+
+**25 Hazır SMS Şablonu**
+WHMCS içerisinde sık kullanılan tüm işlemler için otomatik SMS tetikleyicileri
+bulunur. Şablonlar özelleştirilebilir.
+
+**Sipariş ve Hizmet Bildirimleri**
+Yeni sipariş, sipariş onayı, hizmet aktivasyonu, durdurma ve yeniden başlatma
+gibi tüm aksiyonlar SMS ile bildirilir.
+
+**Domain İşlemleri Otomatik SMS**
+Domain kayıt, yenileme, hata durumları ve süresi dolmak üzere olan domainler
+için hem müşteriye hem yöneticiye SMS gönderilir.
+
+**Fatura Süreçlerine Tam Entegrasyon**
+Yeni fatura oluşturulduğunda, ödeme yapıldığında veya gecikme yaşandığında
+otomatik SMS gider. 1., 2. ve 3. zaman aşımı hatırlatma SMS'leri desteklenir.
+
+**Destek Bildirimleri ve Ticket Yönetimi**
+Yeni ticket açıldığında veya cevaplandığında SMS bildirimi yapılır.
+
+**Güvenlik ve Doğrulama**
+OTP (tek kullanımlık şifre) sayesinde müşteri girişlerinde telefon doğrulaması
+yapılabilir. Yeni üyeliklerde SMS doğrulaması otomatik olarak tetiklenir.
+
+**Kolay Kurulum**
+Verimor OİM üzerinden API erişimini açın ve eklentiyi WHMCS modüllerine ekleyin.
+Kurulum tamamlandıktan sonra tüm SMS süreçleri tamamen otomatik çalışır.
 
 ## Kurulum
 

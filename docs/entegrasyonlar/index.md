@@ -6,49 +6,55 @@ next:
 
 # Entegrasyonlar
 
-Verimor'un SMS ve Bulut Santralim hizmetleri, popüler iş yazılımlarıyla hazır entegrasyon desteği sunar. Teknik bilgi gerektirmeden mevcut platformunuza birkaç adımda SMS veya çağrı yönetimi ekleyin.
+Verimor'un SMS, Bulut Santral ve ses altyapısı; CRM sistemleri, e-ticaret platformları,
+yapay zeka araçları ve kurumsal yazılımlarla entegre çalışır. Tüm entegrasyonlar
+OİM üzerinden aktif hale getirilir.
 
-## E-Ticaret
+## CRM / ERP Entegrasyonları
 
-| Platform | Açıklama |
-|----------|----------|
-| [Shopify](/entegrasyonlar/shopify) | Sipariş, kargo ve kampanya SMS bildirimleri |
-| [Opencart](/entegrasyonlar/opencart) | Mağaza işlemlerinde otomatik SMS |
-| [İdeasoft](/entegrasyonlar/ideasoft) | E-ticaret operasyonlarında SMS ve OTP |
-| [İkas](/entegrasyonlar/ikas) | Sipariş yönetiminde SMS bildirimleri |
-| [Ticimax](/entegrasyonlar/ticimax) | Kampanya ve sipariş SMS bildirimleri |
-| [T-Soft](/entegrasyonlar/tsoft) | E-ticaret sitelerinde SMS entegrasyonu |
-| [WooCommerce](/entegrasyonlar/woocommerce) | WordPress e-ticaret için SMS bildirimleri |
+| Entegrasyon | Ne Yapar? |
+|---|---|
+| [Zoho](./crm/zoho.md) | Click-to-call, call popup, ses kaydı, SMS, kaçan çağrı, analiz |
+| [Teamgram](./crm/teamgram.md) | Click-to-call, web telefonu, SMS, kaçan çağrı raporlama |
+| [KivaCRM](./crm/kivacrm.md) | Click-to-call, call popup, ses kaydı, tekil/toplu SMS |
+| [MyBasicCRM](./crm/mybasiccrm.md) | Click-to-call, popup, TTS, kampanya aramaları, SMS |
+| [DinamikCRM](./crm/dinamikcrm.md) | SoftPhone, click-to-call, popup, SMS, arama kayıt raporları |
+| [Mi4Biz](./crm/mi4biz.md) | Click-to-call, call popup, web telefonu, ses kayıtları |
+| [Volant](./crm/volant.md) | Click-to-call, call popup, web telefonu, ses kayıtları |
+| [Workcube](./crm/workcube.md) | Click-to-call, çağrı popup, web telefonu, detaylı raporlama |
+| [MyVoipCRM](./crm/myvoipcrm.md) | Click-to-call, popup, numara maskeleme, TTS, SMS, kampanya aramaları |
+| [Estesoft](./crm/estesoft.md) | Klinik yönetimi; click-to-call, IVR randevu hatırlatma, raporlama |
+| [BizimHesap](./crm/bizimhesap.md) | Ödeme hatırlatma, tahsilat, sipariş SMS bildirimi |
+| [Piyzi](./crm/piyzi.md) | Randevu hatırlatma, toplu SMS, olay bazlı otomasyon |
 
-## CRM / ERP
+## E-Ticaret Platformları
 
-| Platform | Açıklama |
-|----------|----------|
-| [Zoho CRM](/entegrasyonlar/zoho) | CRM üzerinden SMS gönderimi ve çağrı yönetimi |
-| [DinamikCRM](/entegrasyonlar/dinamik-crm) | Aksiyonlarda otomatik SMS tetiklemeleri |
-| [Teamgram](/entegrasyonlar/teamgram) | Satış ve müşteri yönetiminde SMS bildirimleri |
-| [KivaCRM](/entegrasyonlar/kiva-crm) | Müşteri yönetimi ile SMS ve çağrı |
-| [Workcube](/entegrasyonlar/workcube) | ERP süreçlerinde SMS ve santral entegrasyonu |
-| [Mi4Biz](/entegrasyonlar/mi4biz) | İş süreçleri yönetiminde SMS ve çağrı |
+| Entegrasyon | Ne Yapar? |
+|---|---|
+| [Shopify](./e-ticaret/shopify.md) | Sipariş/kargo IVR, kapıda ödeme onayı, müşteri popup |
+| [T-Soft](./e-ticaret/t-soft.md) | Sipariş/kargo sesli robot, kapıda ödeme, popup |
+| [Ticimax](./e-ticaret/ticimax.md) | Sipariş/kargo IVR, kapıda ödeme, SMS bildirimi |
+| [İdeasoft](./e-ticaret/ideasoft.md) | SMS bildirimi, İYS entegrasyonu, rehber yönetimi |
+| [İkas](./e-ticaret/ikas.md) | Otomatik müşteri tanıma, sipariş TTS, numara doğrulama |
+| [Opencart](./e-ticaret/opencart.md) | Sipariş/kargo IVR, kapıda ödeme onayı, popup |
+| [Projesoft](./e-ticaret/projesoft.md) | Sipariş/kargo IVR, kapıda ödeme, müşteri popup |
 
-## Yazılım
+## Yapay Zeka
 
-| Platform | Açıklama |
-|----------|----------|
-| [WHMCS](/entegrasyonlar/whmcs) | Hosting ve domain yönetiminde SMS bildirimleri |
-| [Qpien](/entegrasyonlar/qpien) | Çok kanallı müşteri iletişim platformu |
-| [BizimHesap](/entegrasyonlar/bizimhesap) | Muhasebe ve fatura bildirimlerinde SMS |
+| Entegrasyon | Ne Yapar? |
+|---|---|
+| [Fonify](./yapay-zeka/fonify.md) | Yapay zeka çalışan; gelen/giden çağrı, WhatsApp, e-posta, CRM entegrasyonu |
+| [HeyCalli](./yapay-zeka/heycalli.md) | KVKK uyumlu Türkçe sesli asistan, 7/24 çağrı yönetimi |
+| [Qfix](./yapay-zeka/qfix.md) | Yapay zeka destekli çağrı karşılama, no-code senaryo yönetimi |
+| [Supsis.ai](./yapay-zeka/supsis-ai.md) | Çok dilli yapay zeka asistan, gelen/giden çağrı otomasyonu |
+| [Freya.ai](./yapay-zeka/freya-ai.md) | Finans/sigorta sektörü için AI çağrı merkezi, %50 maliyet azaltma |
 
-## Yapay Zeka & İletişim
+## Diğer
 
-| Platform | Açıklama |
-|----------|----------|
-| [AloTech](/entegrasyonlar/alotech) | Bulut çağrı merkezi ile Santral entegrasyonu |
-| [Fonify](/entegrasyonlar/fonify) | Yapay zeka destekli çağrı otomasyonu |
-| [HeyCalli](/entegrasyonlar/heycalli) | AI tabanlı sesli müşteri iletişimi |
-
----
-
-::: tip Kendi Entegrasyonunuzu Geliştirin
-Listede olmayan bir platform için [SMS API](/sms/giris) veya [Bulut Santralim API](/switch/giris) ile kendi entegrasyonunuzu dakikalar içinde oluşturabilirsiniz.
-:::
+| Entegrasyon | Ne Yapar? |
+|---|---|
+| [AloTech](./diger/alotech.md) | Bulut çağrı merkezi yazılımı + Verimor operatör altyapısı iş birliği |
+| [Qpien](./diger/qpien.md) | Omnichannel çağrı merkezi; SMS, çağrı, WhatsApp, Instagram tek ekranda |
+| [WHMCS](./diger/whmcs.md) | Hosting paneli; sipariş, fatura, domain, ticket SMS bildirimleri |
+| [Softtr](./diger/softtr.md) | E-ticaret/üyelik SMS bildirimleri (sipariş, kargo, doğrulama) |
+| [Qukasoft](./diger/qukasoft.md) | SMS bildirimi + İYS izin yönetimi |

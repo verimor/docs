@@ -7,10 +7,32 @@ next:
   link: '/entegrasyonlar/ikas'
 ---
 
-# İdeasoft Entegrasyonu
+# İdeasoft 
 
-İdeasoft e-ticaret altyapısına Verimor SMS entegrasyonu ekleyerek sipariş ve kargo bildirimlerini otomatik gönderin.
+Verimor SMS entegrasyonu, İdeasoft e-ticaret sitenizdeki sipariş ve müşteri
+süreçlerini otomatik SMS bildirimleriyle destekler.
 
+**Entegrasyon Türü:** E-Ticaret Platformu
+**Verimor Hizmetleri:** SMS, İYS
+
+---
+
+## Özellikler
+
+**Otomatik SMS Bildirimleri**
+Yeni müşteri kaydı, sipariş oluşturma, kargo gönderimi veya teslimat gibi
+işlemler gerçekleştiğinde müşterilere anında SMS gönderilir.
+
+**İYS Entegrasyonu**
+İYS entegrasyonu sayesinde müşteri verilerini toplu olarak İYS sistemine
+yükleyebilir, yeni kayıt olan müşterilerin bilgilerini otomatik aktarabilirsiniz.
+Tüm ticari izin süreçlerini doğrudan İdeasoft paneliniz üzerinden yönetebilirsiniz.
+
+**Öne Çıkan Özellikler**
+- Sipariş, ödeme ve kargo süreçlerinde müşterilerinizi anında bilgilendirin
+- Otomatik SMS gönderimlerle tüm bilgilendirmeler sistem tarafından yapılır
+- İYS uyumluluğu: müşteri izinlerini otomatik aktarın
+- Rehber yönetimi ve grup bazlı aktarımlar ile düzenli iletişim altyapısı
 ## Kurulum Gereksinimleri
 
 - Aktif Verimor hesabı ve API erişimi

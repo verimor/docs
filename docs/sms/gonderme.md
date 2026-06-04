@@ -23,6 +23,7 @@ Content-Type: application/json
 | `is_commercial` | boolean | Hayır | Ticari ileti ise `true` |
 | `iys_recipient_type` | string | Hayır | `BIREYSEL` veya `TACIR` (ticari gönderimde zorunlu) |
 | `custom_id` | string | Hayır | Kampanyaya özel ID (rapor sorgularken kullanılabilir) |
+| `add_ret` | boolean | Hayır | `true` ise gönderici başlığına ait ret bildirimi (`Ret: ...`) her mesajın sonuna otomatik eklenir. Bkz. [Ret Bildirimi](#ret-bildirimi) |
 
 ### messages[] Nesnesi
 
@@ -89,6 +90,39 @@ Content-Type: application/json
 ```
 
 `campaign_id` değerini rapor sorgulamak için saklayın.
+
+---
+
+## Ret Bildirimi
+
+Ticari iletilerde, alıcıların gönderimi reddedebilmesi için mesaja bir **ret bildirimi** eklenmesi yasal bir zorunluluktur (6563 sayılı kanun). İsteğe `add_ret: true` eklerseniz, gönderici başlığınıza ait ret bildirimini her mesajın sonuna biz otomatik ekleriz — böylece e-imzalı panel girişine gerek kalmadan API üzerinden de ret bildirimini gönderebilirsiniz.
+
+Ret bildirimi, başlığınızın durumuna göre iki biçimde olabilir:
+
+- **Link:** `Ret: www.ret.tc/XXXX` (İYS modülü olan hesaplarda `www.iys.tc/XXXX`)
+- **Anahtar kelime:** `Ret: ORNEK ret yaz 4609'a gonder` (hesabınızda tanımlı bir SMS anahtar kelimesi varsa)
+
+Hangi başlığa hangi metnin ekleneceğini panelde **Başlıklarım** sayfasından görebilirsiniz.
+
+```json
+{
+  "username": "kullanici@ornek.com",
+  "password": "api_sifreniz",
+  "source_addr": "VERIMOR",
+  "is_commercial": true,
+  "iys_recipient_type": "BIREYSEL",
+  "add_ret": true,
+  "messages": [
+    { "dest": "905001234567", "msg": "Size özel %20 indirim fırsatını kaçırmayın!" }
+  ]
+}
+```
+
+Mesaj boyu hesaplanırken eklenen ret bildiriminin uzunluğu da dikkate alınır.
+
+::: info
+`add_ret` yalnızca bu JSON (POST) yönteminde geçerlidir. Dilerseniz ret bildirimini parametre kullanmadan mesaj metninize kendiniz de ekleyebilirsiniz.
+:::
 
 ---
 

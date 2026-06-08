@@ -45,6 +45,28 @@
 
 ---
 
+## Başlık Talebi Hata Kodları
+
+`POST /v2/header_requests` ve `GET /v2/header_requests/:id` uç noktalarında dönebilecek hatalar:
+
+::: info
+Bu uç noktalarda hatalar düz metin değil, standart JSON zarfı içinde döner: hata kodu `error` alanında, okunabilir Türkçe açıklama `errorMessage` alanında, `data` ise `null` olur. HTTP durum kodu doğrulama hataları için `400`, bulunamayan talep için `404` olur. Ayrıntı için [Başlık Yönetimi](/sms/baslik) sayfasına bakın.
+:::
+
+| API Kodu (`error`) | HTTP | `errorMessage` |
+|----------|------|----------------|
+| `INVALID_HEADER_NAME` | 400 | Başlık geçersiz. 1-11 karakter olmalı; yalnızca harf, rakam, boşluk ve * - . karakterleri kullanılabilir, yasaklı kelime içeremez. |
+| `MISSING_RELATION` | 400 | Sahiplik ilişkisi (relation) zorunludur. |
+| `INVALID_RELATION` | 400 | Geçersiz sahiplik ilişkisi (relation). |
+| `MISSING_SUB_RELATION` | 400 | Temsilcilik unvanı için alt ilişki (sub_relation) zorunludur. |
+| `INVALID_PROOF_FILE` | 400 | Belge dosyası geçersiz. İzin verilen uzantılardan biri olmalı ve 7 MB'ı aşmamalı. |
+| `DUPLICATE_HEADER` | 409 | Bu isimde bir başlık talebiniz zaten mevcut. |
+| `HEADER_NOT_FOUND` | 404 | Başlık talebi bulunamadı. |
+
+Ayrıntılar için [Başlık Yönetimi](/sms/baslik) sayfasına bakın.
+
+---
+
 ## Mesaj Durum Hata Kodları (GSM Error)
 
 İletilemeyen mesajlar için operatörden alınan teknik hata kodları:

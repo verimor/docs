@@ -46,6 +46,25 @@ POST https://sms.verimor.com.tr/v2/header_requests
 
 Belge yüklemek için istek `multipart/form-data` formatında gönderilmelidir.
 
+::: warning Belge yüklerken dikkat
+Belge **JSON gövdesiyle gönderilemez.** İstek `multipart/form-data` olmalı ve `proof`
+alanı gerçek bir **dosya** olarak gönderilmelidir (örn. curl'de `-F "proof=@dosya"`).
+
+`Content-Type: application/json` ile gönderip `proof` alanına bir dosya yolu/metni
+yazarsanız belge **yüklenmez** ve istek `INVALID_PROOF_FILE` hatasıyla reddedilir —
+çünkü sunucu sizin makinenizdeki yerel dosya yolunu okuyamaz, dosyanın içeriğini
+almalıdır.
+
+**Yanlış (dosya yüklenmez):**
+```bash
+curl -X POST 'https://sms.verimor.com.tr/v2/header_requests' \
+  -H 'Content-Type: application/json' \
+  -d '{"username":"...","password":"...","name":"BASLIGIM","relation":"ticari-unvan","proof":"/home/kullanici/belge.png"}'
+```
+
+**Doğru (multipart, dosya yüklenir):** aşağıdaki **Örnek İstek** bölümüne bakın.
+:::
+
 ### Parametreler
 
 | Parametre | Zorunlu | Açıklama |

@@ -128,7 +128,11 @@ Mesaj boyu hesaplanırken eklenen ret bildiriminin uzunluğu da dikkate alınır
 
 ## GET — Plain Yöntemi
 
-Tek bir mesajı birden fazla numaraya göndermek için kullanılır.
+Tek bir mesajı hızlıca göndermek için kullanılır.
+
+::: warning Birden fazla numaraya gönderim yapacaksanız
+GET yöntemi URL uzunluğu sınırına tabidir (bkz. [GET Yönteminin Limitleri](#get-yonteminin-limitleri)). Birden fazla numaraya gönderim için [POST — JSON yöntemini](#post-json-yontemi-onerilen) öneririz.
+:::
 
 ```
 GET https://sms.verimor.com.tr/v2/send
@@ -150,6 +154,18 @@ GET https://sms.verimor.com.tr/v2/send
 ```bash
 curl "https://sms.verimor.com.tr/v2/send?username=kullanici@ornek.com&password=api_sifreniz&dest=905001234567,905007654321&msg=Merhaba&source_addr=VERIMOR"
 ```
+
+### GET Yönteminin Limitleri
+
+GET yöntemiyle istek başına **tek bir mesaj metni** gönderilebilir (`msg` parametresi bir adettir); aynı metin `dest` parametresindeki birden fazla numaraya iletilir.
+
+Gönderilebilecek numara adedini belirleyen sınır, URL'nin toplam uzunluğudur: URL'nin `/v2/send?...` ile başlayan kısmı (path + query string) en fazla **8.177 karakter** olabilir. Bu sınır aşılırsa sunucu `414 Request-URI Too Large` hatası döner.
+
+Pratikte bu, kısa bir mesaj metniyle istek başına yaklaşık **600 numaraya** karşılık gelir (`905XXXXXXXXX` formatında bir numara + virgül = 13 karakter). Mesaj metni uzadıkça — özellikle URL encode edilen Türkçe karakterler 3'er karakter yer kapladığı için — gönderilebilecek numara sayısı azalır.
+
+::: tip Toplu gönderim için POST kullanın
+Çok sayıda numaraya veya numara başına farklı metinlerle gönderim yapacaksanız [POST — JSON yöntemini](#post-json-yontemi-onerilen) kullanın; istek başına 50.000 mesaja kadar destekler ve URL uzunluğu sınırından etkilenmez.
+:::
 
 ---
 

@@ -99,7 +99,7 @@ Sadece numara sütunu yeterlidir. Başlık satırı eklemeyin.
 | Kural | Değer |
 |-------|-------|
 | İstek başına maks. alıcı | 50.000 |
-| Dakikada maks. istek sayısı | 240 |
+| Dakikada maks. istek sayısı | 240 (burst 80, `iys_consents` ile paylaşımlı havuz — bkz. [Rate Limiting](/sms/rate-limiting)) |
 | Maks. paket boyutu | 10 MB |
 
 ## İlgili Sayfalar

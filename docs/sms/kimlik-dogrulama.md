@@ -32,3 +32,7 @@ API şifrenizi **Verimor Online İşlem Merkezi (OİM)** > **SMS Ayarları** > *
 - Tüm istekler HTTPS üzerinden yapılmalıdır.
 - SSL doğrulama hatası alırsanız [lets-encrypt-r3.crt](https://github.com/verimor/SMS-API/blob/master/lets-encrypt-r3.crt) kök sertifikasını sisteminize kurmanız gerekebilir.
 :::
+
+## İstek Limitleri
+
+Aynı hesap/IP üzerinden gönderilen istekler endpoint'e göre farklı istek limitlerine (rate limiting) tabidir. Detaylar için [Rate Limiting](./rate-limiting) sayfasına bakın.

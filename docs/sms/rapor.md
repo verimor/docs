@@ -57,8 +57,8 @@ Sisteminiz `200 OK` dönmezse Verimor 5'er dakika arayla 3 kez daha dener. Hâl�
 
 ## GET ile Sorgulama
 
-::: tip
-GET yöntemi dakikada 20 istekle sınırlıdır. Büyük kampanyalar için Push yöntemini tercih edin.
+::: tip İstek Limiti
+GET yöntemi dakikada 20 istekle sınırlıdır, burst değeri 10'dur. Bu limit `balance`, `inbound_messages` gibi diğer genel havuz endpoint'leriyle paylaşımlıdır — bkz. [Rate Limiting](/sms/rate-limiting). Sınır aşıldığında 429 (Too Many Requests) döner. Büyük kampanyalar için Push yöntemini tercih edin.
 :::
 
 #### Kampanya ID ile Sorgulama

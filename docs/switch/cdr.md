@@ -1,5 +1,9 @@
 # Çağrı Detay Kayıtları (CDR)
 
+::: info İstek Limiti
+`cdrs` endpoint'i dakikada en fazla 6 istek ile sınırlıdır. Aşıldığında 429 (Too Many Requests) döner. Detaylar için [Rate Limiting](/switch/rate-limiting) sayfasına bakın.
+:::
+
 ## CDR Listesi
 
 ```

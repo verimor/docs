@@ -2,6 +2,10 @@
 
 Anket, borç hatırlatma, duyuru veya onay alma gibi amaçlarla toplu dış arama kampanyaları oluşturun.
 
+::: info İstek Limiti
+`ivr_campaigns` endpoint'i saniyede 2 istek (yaklaşık dakikada 120) limitine tabidir, burst değeri 50'dir. Aşıldığında 429 (Too Many Requests) döner. Detaylar için [Rate Limiting](/switch/rate-limiting) sayfasına bakın.
+:::
+
 ## Kampanya Oluşturma
 
 ```

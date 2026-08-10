@@ -15,6 +15,10 @@ next:
 
 Topladığınız onayları İYS'ye bildirmek için `/v2/iys_consents.json` endpoint'ini kullanın.
 
+::: info İstek Limiti
+Bu endpoint dakikada 240 istekle sınırlıdır, burst değeri 80'dir. Bu limit `send` (SMS gönderme) ile paylaşımlıdır — bkz. [Rate Limiting](/sms/rate-limiting). Sınır aşıldığında 429 (Too Many Requests) döner.
+:::
+
 ```
 POST https://sms.verimor.com.tr/v2/iys_consents.json
 ```
@@ -70,6 +74,10 @@ POST https://sms.verimor.com.tr/v2/iys_consents.json
 ## İzin Kampanya Sorgulama
 
 İYS'ye gönderilen izinlerin işlenme durumunu sorgulayın.
+
+::: info İstek Limiti
+`iys/campaigns` ve `iys/campaigns/{id}/consents` (Kampanya Detayı) endpoint'leri dakikada 20 istekle sınırlıdır, burst değeri 10'dur. Bu limit `status`, `balance` gibi diğer genel havuz endpoint'leriyle paylaşımlıdır — bkz. [Rate Limiting](/sms/rate-limiting). Sınır aşıldığında 429 (Too Many Requests) döner.
+:::
 
 ```
 GET https://sms.verimor.com.tr/v2/iys/campaigns

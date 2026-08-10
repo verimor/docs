@@ -10,7 +10,7 @@
 | `403` | Yetkisiz erişim |
 | `413` | Paket boyutu 10 MB limitini aştı |
 | `422` | İşlenemeyen varlık |
-| `429` | Rate limit aşıldı (dakikada 240 istek) |
+| `429` | Rate limit aşıldı — limit endpoint'e göre değişir, bkz. [Rate Limiting](/sms/rate-limiting) |
 | `500` | Sunucu hatası |
 
 ---

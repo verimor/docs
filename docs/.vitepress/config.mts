@@ -76,6 +76,7 @@ export default defineConfig({
           items: [
             { text: 'API\'ye Giriş', link: '/sms/giris' },
             { text: 'Kimlik Doğrulama', link: '/sms/kimlik-dogrulama' },
+            { text: 'Rate Limiting', link: '/sms/rate-limiting' },
             { text: 'SMS Gönderme', link: '/sms/gonderme' },
             { text: 'Rapor Sorgulama', link: '/sms/rapor' },
             { text: 'Bakiye Sorgulama', link: '/sms/bakiye' },
@@ -112,6 +113,7 @@ export default defineConfig({
           items: [
             { text: 'API\'ye Giriş', link: '/switch/giris' },
             { text: 'Kimlik Doğrulama', link: '/switch/kimlik-dogrulama' },
+            { text: 'Rate Limiting', link: '/switch/rate-limiting' },
             { text: 'Çağrı Yönetimi', link: '/switch/cagri-yonetimi' },
             { text: 'Çağrı Detay Kayıtları', link: '/switch/cdr' },
             { text: 'Kuyruklar', link: '/switch/kuyruklar' },

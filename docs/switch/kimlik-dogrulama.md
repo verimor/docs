@@ -30,3 +30,7 @@ export BULUTSANTRAL_KEY="buraya_anahtarinizi_yazin"
 curl "https://api.bulutsantralim.com/queues?key=$BULUTSANTRAL_KEY"
 ```
 :::
+
+## İstek Limitleri
+
+Aynı domain/IP üzerinden gönderilen istekler endpoint'e göre farklı istek limitlerine (rate limiting) tabidir. Detaylar için [Rate Limiting](./rate-limiting) sayfasına bakın.

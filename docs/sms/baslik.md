@@ -2,6 +2,10 @@
 
 SMS başlıklarınızı API üzerinden yönetebilirsiniz: onaylı başlıklarınızı **listeleyebilir**, yeni bir başlık **talebi oluşturabilir** ve mevcut taleplerinizin **durumunu sorgulayabilirsiniz**.
 
+::: info İstek Limiti
+Bu sayfadaki endpoint'ler (`headers`, `header_requests`) genel havuza tabidir: dakikada 20 istek, burst 10 (bkz. [Rate Limiting](/sms/rate-limiting)).
+:::
+
 ## Onaylı Başlıkları Listeleme
 
 SMS gönderiminde kullanabileceğiniz onaylı alfanümerik başlıklarınızı listeler.

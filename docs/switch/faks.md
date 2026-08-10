@@ -1,5 +1,9 @@
 # Faks
 
+::: info İstek Limiti
+Bu sayfadaki endpoint'ler genel varsayılan istek limitine tabidir: saniyede 2 istek (yaklaşık dakikada 120), burst 10. Detaylar için [Rate Limiting](/switch/rate-limiting) sayfasına bakın.
+:::
+
 ## Faks Gönderme
 
 ```

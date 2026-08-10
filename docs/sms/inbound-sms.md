@@ -57,6 +57,10 @@ Sisteminiz `200 OK` dönmezse Verimor 5'er dakika arayla 3 kez daha dener. Hâl�
 
 ## GET ile Sorgulama
 
+::: info İstek Limiti
+Bu endpoint dakikada 20 istekle sınırlıdır, burst değeri 10'dur. Bu limit `status`, `balance` gibi diğer genel havuz endpoint'leriyle paylaşımlıdır — bkz. [Rate Limiting](/sms/rate-limiting). Sınır aşıldığında 429 (Too Many Requests) döner. Yüksek hacimde Push yöntemi önerilir.
+:::
+
 ```
 GET https://sms.verimor.com.tr/v2/inbound_messages
 ```

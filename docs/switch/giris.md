@@ -47,6 +47,7 @@ API anahtarınızı (key): **Verimor OİM** > **Bulut Santralim** > **Santral Ay
 ## Sonraki Adımlar
 
 - [Kimlik Doğrulama](./kimlik-dogrulama)
+- [Rate Limiting](./rate-limiting) — Endpoint bazlı istek limitleri
 - [Çağrı Yönetimi](./cagri-yonetimi) — Başlatma, aktarma, sonlandırma
 - [CDR](./cdr) — Çağrı detay kayıtları
 - [IVR Kampanya](./ivr-kampanya) — Otomatik arama kampanyaları

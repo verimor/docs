@@ -2,6 +2,10 @@
 
 Hesabınızdaki kalan SMS kredisini sorgulamak için kullanılır.
 
+::: info İstek Limiti
+Bu endpoint genel havuza tabidir: dakikada 20 istek, burst 10 (bkz. [Rate Limiting](/sms/rate-limiting)).
+:::
+
 ## Endpoint
 
 ```

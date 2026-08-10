@@ -34,3 +34,10 @@
   background-color: #1254c0;
   color: #ffffff !important;
 }
+
+/* medium-zoom büyütülen görsel, sidebar/nav'ın üzerinde görünsün */
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 2147483647;
+}
+

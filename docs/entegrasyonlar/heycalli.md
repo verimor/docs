@@ -3,8 +3,8 @@ prev:
   text: 'Fonify'
   link: '/entegrasyonlar/fonify'
 next:
-  text: 'SMS Nedir?'
-  link: '/sms/nedir'
+  text: 'ElevenLabs'
+  link: '/entegrasyonlar/elevenlabs'
 ---
 
 # HeyCalli

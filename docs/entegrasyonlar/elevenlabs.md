@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'HeyCalli'
+  link: '/entegrasyonlar/heycalli'
+next:
+  text: 'SMS Nedir?'
+  link: '/sms/nedir'
+---
+
 **ElevenLabs ile Yapay Zeka Çağrı**  
 **Entegrasyonu (Verimor Rehberi)**
 

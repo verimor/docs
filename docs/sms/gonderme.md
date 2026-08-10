@@ -2,6 +2,10 @@
 
 İki farklı yöntemle SMS gönderilebilir: JSON (POST) veya Plain (GET).
 
+::: info İstek Limiti
+`send` endpoint'i (POST ve GET) dakikada 240 istekle sınırlıdır, burst değeri 80'dir. Bu limit `iys_consents` ile paylaşımlıdır — bkz. [Rate Limiting](/sms/rate-limiting). Sınır aşıldığında 429 (Too Many Requests) döner.
+:::
+
 ## POST — JSON Yöntemi (Önerilen)
 
 ```
@@ -198,3 +202,7 @@ POST https://sms.verimor.com.tr/v2/cancel/{campaign_id}
 ```bash
 curl -X POST "https://sms.verimor.com.tr/v2/cancel/98765432?username=kullanici@ornek.com&password=api_sifreniz"
 ```
+
+::: info İstek Limiti
+`cancel` endpoint'i `send`'in aksine genel havuza tabidir: dakikada 20 istek, burst 10 (bkz. [Rate Limiting](/sms/rate-limiting)). Sınır aşıldığında 429 (Too Many Requests) döner.
+:::

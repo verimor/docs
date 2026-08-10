@@ -38,6 +38,10 @@ Maskeleme özelliği `/originate` endpoint'i üzerinden tetiklenebilir. Detaylı
 curl "https://api.bulutsantralim.com/originate?key=API_ANAHTARINIZ&extension=MASKELEME_NUMARASI&destination=905001234567"
 ```
 
+::: info İstek Limiti
+`originate` endpoint'i saniyede 3 istek (yaklaşık dakikada 180) limitine tabidir, burst değeri 100'dür. Detaylar için [Rate Limiting](/switch/rate-limiting) sayfasına bakın.
+:::
+
 ## Özellikler
 
 - Çağrı süresi ve zaman damgası CDR'da kayıtlı kalır

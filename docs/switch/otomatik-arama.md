@@ -53,6 +53,10 @@ curl -X POST "https://api.bulutsantralim.com/ivr_campaigns.json?key=API_ANAHTARI
   }'
 ```
 
+::: info İstek Limiti
+`ivr_campaigns` endpoint'i saniyede 2 istek (yaklaşık dakikada 120) limitine tabidir, burst değeri 50'dir. Detaylar için [Rate Limiting](/switch/rate-limiting) sayfasına bakın.
+:::
+
 ## Tuşlama Hedefleri
 
 `digit_target_1` … `digit_target_9`, `digit_target_star`, `digit_target_square` parametreleriyle her tuşa farklı eylem atanır:

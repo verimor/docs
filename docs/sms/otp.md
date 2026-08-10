@@ -88,7 +88,7 @@ curl -X POST https://sms.verimor.com.tr/v2/send.json \
 Yoğun OTP gönderimlerinde istekleri kendi tarafınızda biriktirip **saniyede bir** POST isteği yapmanız önerilir. Böylece rate limit'e takılmadan yüksek hacim sağlanır.
 :::
 
-- Dakikada 240 istek sınırına dikkat edin
+- Dakikada 240 istek sınırına dikkat edin (burst 80, `iys_consents` ile paylaşımlı havuz — bkz. [Rate Limiting](/sms/rate-limiting))
 - Her isteğe birden fazla alıcı eklemek mümkündür (tek seferde 50.000'e kadar)
 
 ## Kod Önerileri

@@ -27,6 +27,10 @@ Bu akış sayesinde temsilci manuel numara tuşlamak zorunda kalmaz; yanlış ar
 curl "https://api.bulutsantralim.com/originate?key=API_ANAHTARINIZ&extension=1001&destination=905001234567"
 ```
 
+::: info İstek Limiti
+`originate` endpoint'i saniyede 3 istek (yaklaşık dakikada 180) limitine tabidir, burst değeri 100'dür. Detaylar için [Rate Limiting](/switch/rate-limiting) sayfasına bakın.
+:::
+
 Ya da JSON ile POST:
 
 ```bash

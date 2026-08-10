@@ -1,8 +1,16 @@
 # Çağrı Yönetimi
 
+::: info İstek Limiti
+Bu sayfadaki endpoint'ler için özel istek limitleri aşağıda belirtilmiştir. Belirtilmeyenler genel varsayılan limite tabidir. Detaylar için [Rate Limiting](/switch/rate-limiting) sayfasına bakın.
+:::
+
 ## Çağrı Başlatma (Click-to-Call)
 
 Santraldeki bir dahiliden dış numaraya arama başlatır. Dahilinin telefonu çalar, açtığında hedef numara aranır.
+
+::: info İstek Limiti
+Bu endpoint saniyede 3 istek (yaklaşık dakikada 180) limitine tabidir, burst değeri 100'dür. Aşıldığında 429 (Too Many Requests) döner.
+:::
 
 ### GET
 
@@ -107,6 +115,10 @@ GET https://api.bulutsantralim.com/user_statuses
 ```bash
 curl "https://api.bulutsantralim.com/user_statuses?key=API_ANAHTARINIZ"
 ```
+
+::: info İstek Limiti
+`user_statuses` ve `agent_statuses` (bkz. [Kuyruklar → MT Durumları](/switch/kuyruklar)) aynı istek limiti havuzunu paylaşır: aynı domain/IP için ikisi birlikte dakikada **toplam 2 istek** hakkına sahiptir. Örneğin bu dakika içinde `user_statuses`'a 2 istek gönderildiyse, aynı dakika içinde `agent_statuses`'a yapılacak istekler de sınıra takılır ve 429 (Too Many Requests) döner.
+:::
 
 ---
 

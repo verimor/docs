@@ -1,11 +1,15 @@
 # Ses Kayıtları
 
+::: info İstek Limiti
+Bu sayfadaki endpoint'ler için özel istek limitleri aşağıda belirtilmiştir. Belirtilmeyenler genel varsayılan limite tabidir. Detaylar için [Rate Limiting](/switch/rate-limiting) sayfasına bakın.
+:::
+
 ## Geçici URL Oluşturma
 
 Ses kaydına erişmek için 1 saatlik geçici URL oluşturur.
 
-::: info
-Dakikada en fazla 5 istek yapılabilir.
+::: info İstek Limiti
+Dakikada en fazla 5 istek yapılabilir. Sınır aşıldığında 429 (Too Many Requests) döner.
 :::
 
 ```

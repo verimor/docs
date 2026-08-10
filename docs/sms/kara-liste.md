@@ -2,6 +2,10 @@
 
 SMS almak istemeyen numaraları yönetmek için kullanılır.
 
+::: info İstek Limiti
+Bu sayfadaki endpoint'ler genel havuza tabidir: dakikada 20 istek, burst 10 (bkz. [Rate Limiting](/sms/rate-limiting)).
+:::
+
 ## Karaliste Sorgulama
 
 ```

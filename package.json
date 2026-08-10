@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview docs --host 0.0.0.0 --port 4173"
   },
   "devDependencies": {
+    "medium-zoom": "^1.1.0",
     "vitepress": "^1.6.3"
   }
 }

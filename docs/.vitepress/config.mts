@@ -248,6 +248,7 @@ export default defineConfig({
             { text: 'AloTech', link: '/entegrasyonlar/alotech' },
             { text: 'Fonify', link: '/entegrasyonlar/fonify' },
             { text: 'HeyCalli', link: '/entegrasyonlar/heycalli' },
+            { text: 'ElevenLabs', link: '/entegrasyonlar/elevenlabs' },
           ],
         },
       ],

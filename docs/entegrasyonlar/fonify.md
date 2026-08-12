@@ -1,7 +1,7 @@
 ---
 prev:
-  text: 'AloTech'
-  link: '/entegrasyonlar/alotech'
+  text: 'Amazon S3'
+  link: '/entegrasyonlar/amazon-s3'
 next:
   text: 'HeyCalli'
   link: '/entegrasyonlar/heycalli'

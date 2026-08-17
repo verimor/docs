@@ -249,6 +249,7 @@ export default defineConfig({
             { text: 'Fonify', link: '/entegrasyonlar/fonify' },
             { text: 'HeyCalli', link: '/entegrasyonlar/heycalli' },
             { text: 'ElevenLabs', link: '/entegrasyonlar/elevenlabs' },
+            { text: 'LiveKit', link: '/entegrasyonlar/livekit' },
           ],
         },
         {

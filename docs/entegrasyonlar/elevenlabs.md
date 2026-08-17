@@ -3,8 +3,8 @@ prev:
   text: 'HeyCalli'
   link: '/entegrasyonlar/heycalli'
 next:
-  text: 'SMS Nedir?'
-  link: '/sms/nedir'
+  text: 'LiveKit'
+  link: '/entegrasyonlar/livekit'
 ---
 
 **ElevenLabs ile Yapay Zeka Çağrı**  

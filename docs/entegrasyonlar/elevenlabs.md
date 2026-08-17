@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'HeyCalli'
+  link: '/entegrasyonlar/heycalli'
+next:
+  text: 'LiveKit'
+  link: '/entegrasyonlar/livekit'
+---
+
 **ElevenLabs ile Yapay Zeka Çağrı**  
 **Entegrasyonu (Verimor Rehberi)**
 

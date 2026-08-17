@@ -49,6 +49,7 @@ OİM üzerinden aktif hale getirilir.
 | [Supsis.ai](./supsis-ai.md) | Çok dilli yapay zeka asistan, gelen/giden çağrı otomasyonu |
 | [Freya.ai](./freya-ai.md) | Finans/sigorta sektörü için AI çağrı merkezi, %50 maliyet azaltma |
 | [ElevenLabs](./elevenlabs.md) | SIP trunk ile ElevenAgents bağlantısı; gelen/giden aramaları konuşan AI ajan yönetir |
+| [LiveKit](./livekit.md) | SIP trunk ile LiveKit agent bağlantısı; gelen/giden aramaları konuşan AI ajan yönetir |
 
 ## Diğer
 

@@ -3,8 +3,8 @@ prev:
   text: 'Qpien'
   link: '/entegrasyonlar/qpien'
 next:
-  text: 'Fonify'
-  link: '/entegrasyonlar/fonify'
+  text: 'Amazon S3'
+  link: '/entegrasyonlar/amazon-s3'
 ---
 
 # AloTech

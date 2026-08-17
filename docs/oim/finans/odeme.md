@@ -40,7 +40,9 @@ Havale ile ödeme yapmak için hesap numaralarımız:
 
 | Banka | IBAN |
 |-------|------|
-| Garanti BBVA | TR00 0006 2000 0000 0000 0000 00 |
-| İş Bankası | TR00 0006 4000 0000 0000 0000 00 |
+| QNB | TR74 0011 1000 0000 0109 5992 82 |
+| Türkiye İş Bankası | TR12 0006 4000 0011 0191 2111 40 |
+| Garanti Bankası | TR91 0006 2000 6030 0006 2996 13 |
+| Ziraat Bankası | TR22 0001 0009 3872 3310 2150 01 |
 
 Açıklama alanına **müşteri numaranızı** yazmayı unutmayın.

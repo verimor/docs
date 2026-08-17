@@ -60,3 +60,9 @@ OİM üzerinden aktif hale getirilir.
 | [WHMCS](./whmcs.md) | Hosting paneli; sipariş, fatura, domain, ticket SMS bildirimleri |
 | [Softtr](./softtr.md) | E-ticaret/üyelik SMS bildirimleri (sipariş, kargo, doğrulama) |
 | [Qukasoft](./qukasoft.md) | SMS bildirimi + İYS izin yönetimi |
+
+## Depolama / Yedekleme
+
+| Entegrasyon | Ne Yapar? |
+|---|---|
+| [Amazon S3](./amazon-s3.md) | Ses kayıtlarını kendi AWS S3 bucket'ınıza otomatik yedekler |

@@ -252,6 +252,12 @@ export default defineConfig({
             { text: 'LiveKit', link: '/entegrasyonlar/livekit' },
           ],
         },
+        {
+          text: 'Depolama / Yedekleme',
+          items: [
+            { text: 'Amazon S3', link: '/entegrasyonlar/amazon-s3' },
+          ],
+        },
       ],
     },
 

@@ -251,6 +251,12 @@ export default defineConfig({
             { text: 'ElevenLabs', link: '/entegrasyonlar/elevenlabs' },
           ],
         },
+        {
+          text: 'Depolama / Yedekleme',
+          items: [
+            { text: 'Amazon S3', link: '/entegrasyonlar/amazon-s3' },
+          ],
+        },
       ],
     },
 
